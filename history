@@ -1,0 +1,97 @@
+1  ll
+    2  yum install git -y
+    3  git --version
+    4  git version
+    5  mkdir myproject
+    6  cd myproject/
+    7  cat>sample.txt
+    8  cat>test.txt
+    9  ll
+   10  git init
+   11  ll
+   12  git status
+   13  git add .
+   14  git status
+   15  git commit -m "my files in repo"
+   16  git status
+   17  git log
+   18  cat>result.txt
+   19  git status
+   20  git add result.txt
+   21  git config --global user.name="krishna"
+   22  git config --global user.name "krishna"
+   23  git config --global user.email "krishna04.b@gmail.com"
+   24  cat>output.txt
+   25  git add output.txt
+   26  git commit -m "my output file"
+   27  git log
+   28  git status
+   29  git log
+   30  ll
+   31  git remote add origin https://github.com/Milky19/myproject1.git
+   32  git push origin master
+   33  cd
+   34  ll
+   35  rm -rf *
+   36  ll
+   37  mkdir myfolder
+   38  cd myfolder/
+   39  git init
+   40  touch a{1..5}.txt
+   41  ll
+   42  touch b{1..5}.classs
+   43  ll
+   44  vi .gitignore
+   45  git status
+   46  rm -rf *
+   47  ll
+   48  touch abc.txt
+   49  cat>>abc.txt
+   50  cat>>myfile.txt
+   51  ll
+   52  git init .
+   53  git add abc.txt;git commit -m "abc file"
+   54  rm -rf .gitignore
+   55  git add abc.txt;git commit -m "abc file"
+   56  git add myfile.txt;git commit -m "mydata file"
+   57  git log
+   58  ls
+   59  git status
+   60  git ls-files
+   61  git log
+   62  ls
+   63  git ls-files
+   64  git log --oneline
+   65  git rm abc.txt
+   66  ls
+   67  git ls-files
+   68  git log --oneline
+   69  touch a.txt
+   70  git add a.txt
+   71  git commit -m "a file"
+   72  ls
+   73  git ls-files
+   74  git log --oneline
+   75  ls
+   76  git ls-files
+   77  git log --oneline
+   78  git rm --cached myfile.txt
+   79  ls
+   80  git ls-files
+   81  git log --oneline
+   82  touch myfile.txt
+   83  git commit -m " myfile new"
+   84  git log
+   85  ls
+   86  git ls-files
+   87  touch c.txt
+   88  git addd c.txt
+   89  git add c.txt
+   90  git commit -m " c file"
+   91  ls
+   92  git ls-files
+   93  git log --oneline
+   94  rm c.txt
+   95  ls
+   96  git ls-files
+   97  history
